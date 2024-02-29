@@ -19,7 +19,7 @@ api = "0.7"
   homepage = "https://github.com/initializ-buildpacks/image-labels"
   id = "initializ-buildpacks/image-labels"
   keywords = ["image-labels", "labels"]
-  name = "Paketo Buildpack for Image Labels"
+  name = "Initializ Buildpack for Image Labels"
   version = "{{.version}}"
   sbom-formats = ["application/vnd.cyclonedx+json", "application/vnd.syft+json"]
 
