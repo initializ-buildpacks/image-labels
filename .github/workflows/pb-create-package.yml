@@ -25,7 +25,7 @@ jobs:
 
                 set -euo pipefail
 
-                go install -ldflags="-s -w" github.com/initializ-buildpacks/libpak/cmd/create-package@latest
+                go install -ldflags="-s -w" github.com/paketo-buildpacks/libpak/cmd/create-package@latest
             - name: Install crane
               run: |
                 #!/usr/bin/env bash
