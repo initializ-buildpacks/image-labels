@@ -1,4 +1,4 @@
-# `https://hub.docker.com/r/image-labels
+# `https://hub.docker.com/r/image-labels`
 
 The Initializ Buildpack for Image Labels is a Cloud Native Buildpack that enables configuration of labels on the created image.
 
