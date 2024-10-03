@@ -1,8 +1,5 @@
 name: Create Package
 "on":
-    push:
-        branches:
-            - main
     release:
         types:
             - published
