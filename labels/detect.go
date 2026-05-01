@@ -45,7 +45,7 @@ func (Detect) Detect(context libcnb.DetectContext) (libcnb.DetectResult, error) 
 	pass = pass || ok
 
 	if !pass {
-		l.Logger.Info("SKIPPED: No supported environment variables were set")
+		l.Info("SKIPPED: No supported environment variables were set")
 		return libcnb.DetectResult{Pass: false}, nil
 	}
 
